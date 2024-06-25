@@ -76,3 +76,11 @@
   .finish{
     background-color: rgb(255, 0, 0);
   }
+
+
+
+  /* orders.module.css */
+.addButton:active {
+  background-color: green; /* Change to your desired color */
+  color: white; /* Optional: change text color */
+}

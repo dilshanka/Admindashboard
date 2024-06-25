@@ -69,36 +69,7 @@ const ProductsPageEmp = async ({ searchParams }) => {
                 }).format(new Date(order.createdAt))}
               </td>
               <td>
-                {/* <div className={styles.container}>
-                  <form action={saveAcceptedOrder} className={styles.form}>
-                    <div className={styles.buttons}>
-
-
-                    <input type="hidden" name="orderId" value={order._id.toString()} />
-                    <input type="hidden" name="name" value={order.name} />
-                    <input type="hidden" name="mobileNo" value={order.mobileNo} />
-                    <input type="hidden" name="items" value={JSON.stringify(order.items)} />
-                    <input type="hidden" name="totalAmount" value={order.totalAmount} />
-                    <input type="hidden" name="deliveryFee" value={order.deliveryFee} />
-                    <input type="hidden" name="destination" value={order.destination} />
-                    <input type="hidden" name="status" value="Accepted" />
-
-                      <button className={styles.addButton}>Accept Order</button>
-                      <button className={styles.addButton}>Out of Delivery</button>
-
-
-
-                  
-                      <button className={styles.addButton}>Finishd</button>
-
-
-
-
-                
-                    </div>
-                  </form>
-
-                </div> */}
+               
 
                 <div style={{ display: "flex", gap: "10px" }}>
                   {/* Accept Order Form */}
